@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .btn-whatsapp {
+    display:block;
+    width:20px;
+    height:20px;
+    position: fixed;
+    right:20px;
+    bottom:20px;
+    border-radius:50%;
+    line-height:80px;
+    text-align:center;
+    z-index:999;
+    margin: 100px;
+}
+
+.img_wpp {
+    width: 100px;
+
+}
+
+.titulo1 {
+    color: rgba(1,146,177,255);
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+
+.titulo2 {
+    color: rgba(1,146,177,255);
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+
+.titulo3 {
+    color: rgba(1,146,177,255);
+}
+
+.titulo4 {
+    color: rgba(1,146,177,255);
+}
+
+
+.contacto {
+    background-color: rgba(233,92,39,255);
+    color: white;
+}
