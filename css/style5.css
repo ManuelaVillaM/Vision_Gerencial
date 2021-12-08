@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .btn-whatsapp {
+    display:block;
+    width:20px;
+    height:20px;
+    position: fixed;
+    right:20px;
+    bottom:20px;
+    border-radius:50%;
+    line-height:80px;
+    text-align:center;
+    z-index:999;
+    margin: 100px;
+}
+
+.img_wpp {
+    width: 100px;
+
+}
