@@ -20,19 +20,46 @@
     font-display: swap;
 }
 
-
-#nova_seccion_1{
+.seccion{
     text-align: center;
+    background-repeat: no-repeat;
 }
 
-.nova_resaltar{
-    color:#0092b0;
+.adorno_derecha{
+    background-image: url(../imagenes/estrellas_derecha.png);
+    background-position: right;
+}
+.adorno_izquierda{
+    background-image: url(../imagenes/estrellas_izquierda.png);
+    background-position: left;
+}
+#nova_seccion_1{
+    height: 940px;
+    padding-top: 80px;
 }
 
 #nova_beneficios{
     width: 500px;
     margin: 0 auto;
 }
+
+#nova_seccion_2{
+    height: 936px;
+}
+
+.nova_check_mark{
+    position: relative;
+}
+.nova_check_mark img:last-child{
+    position: absolute;
+    top: 84px;
+    right: 470px;
+}
+
+.nova_resaltar{
+    color:#0092b0;
+}
+
 
 
 
