@@ -39,21 +39,19 @@
 }
 
 #nova_beneficios{
-    width: 500px;
+    width: 600px;
     margin: 0 auto;
 }
 
 #nova_seccion_2{
     height: 936px;
+    padding: 60px;
 }
 
 .nova_check_mark{
-    position: relative;
-}
-.nova_check_mark img:last-child{
-    position: absolute;
-    top: 84px;
-    right: 470px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nova_resaltar{
@@ -534,6 +532,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: avenir_light;
+    font-size: 20px;
+
 }
 
 .btn-whatsapp {
@@ -557,30 +557,172 @@
 .titulo1 {
     color: rgba(1,146,177,255);
     font-family: 'Lobster', cursive;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 .titulo2 {
     color: rgba(1,146,177,255);
     font-family: 'Lobster', cursive;
-    font-size: 40px;
+    font-size: 60px;
+    margin: 10px;
 }
+
+#img_info1 {
+    width: 550px;
+}
+
 
 .titulo3 {
     color: rgba(1,146,177,255);
+    font-size: 40px;
 }
 
 .titulo4 {
     color: rgba(1,146,177,255);
 }
 
+#credito_contado {
+    margin-bottom: 60px;
+}
+
+.contenedorformasganar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.formasganar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tipsganar {
+    display: flex;
+    align-items: center;
+}
+
+.contenedorpremios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.contenedorpuntos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.iconosec3 {
+    margin-right: 20px;
+}
+
+.formasGanar {
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+}
+
+.pseccion3 {
+    text-align: left;
+}
+
+#img_info31 {
+    padding-right: 85px;
+}
+
+#img_info32 {
+    padding-left: 35px;
+}
+
+.conPremios {
+    text-align: left;
+}
+
+#nova_seccion_9{
+    margin-left: 200px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: left;
+}
+
+#img_info9 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#nova_seccion_10{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion101 {
+    text-align: left;
+    display: flex;
+    margin-top: 30px;
+}
+
+.usoflex {
+    display: flex;
+    align-items: center;
+}
+
+.seccion102 {
+    margin-top: 50px;
+    text-align: left;
+}
+
+.seccion103 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+    margin-top: 30px;
+}
+
 
 .contacto {
     background-color: rgba(233,92,39,255);
     color: white;
+    display: flex;
+    align-items: center;
 }
 
+.contenedorlogo_vision {
+    margin-left: 20px;
+    margin-right: 110px;
+}
 
+.logo_vision {
+    width: 400px;
+}
+
+.mediospago {
+    display: flex;
+    align-items: center;
+}
+
+.contenedormediospago {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+#tituloFooter {
+    text-align: center;
+}
+
+#novfooter {
+    margin-top: 80px;
+}
 
 
 
@@ -1027,5 +1169,46 @@
 
 /* Fin estilos Manuela Villa */
 /* Estilos Andres Arenas */
+/* info 4 */
+.info4 h2{
+    color:rgb(1,146,177);
+}
+/* info 5 */
+.info5 p{
+    color: rgb(86,86,86);
+    color: royalblue;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    align-content: center;
+    color: white;
+    background-color:rgb(233,92,39) ;
+    border-radius: 20px;
+}
 
+/* info 6 */
+.info6 h1{
+    display: inline;
+}
+.info6 h2{
+    color:rgb(1,146,177);
+}
+.tituloA { 
+    color:rgb(1,146,177);
+    
+}
+.tituloB {
+    color:rgb(106,21,106);
+    
+}
+em{
+    color:rgb(1,146,177);
+}
+table{
+    
+}
+.tituloTabla{
+    color:rgb(1,146,177);
+}
 /* Fin estilos Andres Arenas*/
