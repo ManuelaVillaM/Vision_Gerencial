@@ -22,17 +22,16 @@
 
 .seccion{
     text-align: center;
+    background-repeat: no-repeat;
 }
 
 .adorno_derecha{
     background-image: url(../imagenes/estrellas_derecha.png);
     background-position: right;
-    background-repeat: no-repeat;
 }
 .adorno_izquierda{
     background-image: url(../imagenes/estrellas_izquierda.png);
     background-position: left;
-    background-repeat: no-repeat;
 }
 #nova_seccion_1{
     height: 940px;
@@ -54,31 +53,58 @@
     align-items: center;
     justify-content: center;
 }
-.nova_contenedor{
-    width: 850px;
-    margin: 0 auto;
-}
-.nova_contenedor div{
-    margin-left: 20px;
-}
+
 .nova_resaltar{
     color:#0092b0;
 }
-.nova_titulo{
-    font-family: avenir_book;
-    font-size: 36px;
-}
 
 
-.info4{
-    margin-top: 150px;
-    margin-bottom: 80px;
-    height: 935px;
-}
 
-.alinear_izquierda{
-    text-align: left;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1144,45 +1170,93 @@
 /* Fin estilos Manuela Villa */
 /* Estilos Andres Arenas */
 /* info 4 */
-.info4 h2{
+#nova_seccion_4{
+    height: 940px;
+    padding-top: 80px;
+}
+#nova_seccion_4 h2{
     color:rgb(1,146,177);
 }
-/* info 5 */
-.info5 p{
+#nova_seccion_4 p{
     color: rgb(86,86,86);
-    color: royalblue;
 }
-a{
+.nova_check_nova4{
+    display: block;
+    align-items: center;
+    justify-self: normal;
+}
+/* info 5 */
+#nova_seccion_5{
+    height: 940px;
+    padding-top: 80px;
+}
+#nova_seccion_5 h2{
+    color:rgb(1,146,177);
+    font-size: 38px;
+}
+#nova_seccion_5 p{
+    color: rgb(86,86,86);
+    font-size: 17px;
+    text-align: center;
+    
+}
+.enlacePremios{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+.puntos{
+    
+    
+}
+#nova_seccion_5 a{
     text-decoration: none;
     text-align: center;
     align-content: center;
     color: white;
     background-color:rgb(233,92,39) ;
     border-radius: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0.5rem 1rem;
+}
+.condiciones{
+    font-size: 15px;
 }
 
 /* info 6 */
-.info6 h1{
+#nova_seccion_6{
+    height: 940px;
+    padding-top: 80px;
+}
+#nova_seccion_6 h1{
     display: inline;
+    font-family:;
+    font-size: 50px;
 }
-.info6 h2{
+#nova_seccion_6 h2{
     color:rgb(1,146,177);
 }
-.tituloA { 
-    color:rgb(1,146,177);
-    
+#nova_seccion_6 p{
+    color: rgb(86,86,86);
 }
-.tituloB {
-    color:rgb(106,21,106);
-    
-}
-em{
-    color:rgb(1,146,177);
-}
-table{
-    
+
+.tabla{ 
+        margin-top: 30px;   
+       display: flex;  
+       flex-direction: column; 
+       justify-content: center;
+       align-items: center;
 }
 .tituloTabla{
     color:rgb(1,146,177);
+    font-weight: bold;
+    text-align: center;
+    
+}
+.contenidoTabla{
+    color: rgb(86,86,86);
+    padding: 20px 50px;
+    text-align: center;
 }
 /* Fin estilos Andres Arenas*/
