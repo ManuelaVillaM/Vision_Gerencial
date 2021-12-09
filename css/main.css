@@ -1027,5 +1027,46 @@
 
 /* Fin estilos Manuela Villa */
 /* Estilos Andres Arenas */
+/* info 4 */
+.info4 h2{
+    color:rgb(1,146,177);
+}
+/* info 5 */
+.info5 p{
+    color: rgb(86,86,86);
+    color: royalblue;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    align-content: center;
+    color: white;
+    background-color:rgb(233,92,39) ;
+    border-radius: 20px;
+}
 
+/* info 6 */
+.info6 h1{
+    display: inline;
+}
+.info6 h2{
+    color:rgb(1,146,177);
+}
+.tituloA { 
+    color:rgb(1,146,177);
+    
+}
+.tituloB {
+    color:rgb(106,21,106);
+    
+}
+em{
+    color:rgb(1,146,177);
+}
+table{
+    
+}
+.tituloTabla{
+    color:rgb(1,146,177);
+}
 /* Fin estilos Andres Arenas*/
