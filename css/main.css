@@ -53,7 +53,9 @@
     align-items: center;
     justify-content: center;
 }
-
+.nova_check{
+    align-self: center !important;
+}
 .nova_resaltar{
     color:#0092b0;
 }
@@ -268,20 +270,30 @@
     margin-bottom: 20px;
 }
 
+#nova_section_8{
+    width: 900px;
+    margin: 50px auto;
+}
 
+#nova_seccion_9{
+    width: 960px;
+    height: 936px;
+    margin: 0 auto;   
+}
 
+#nova_section_8 h2:first-child{
+    text-align: center;
+}
 
+#nova_section_8 h3{
+    color: #0092b0;
+}
 
-
-
-
-
-
-
-
-
-
-
+#nova_catalogo_btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
 
 
