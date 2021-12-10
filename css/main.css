@@ -267,6 +267,9 @@ p {
 }
 
 /* Fin estilos Manuela Villa */
+
+
+
 /* Estilos Andres Arenas */
 /* info 4 */
 #nova_seccion_4{
@@ -356,6 +359,8 @@ p {
 }
 /* Fin estilos Andres Arenas*/
 
+
+
 /* Inicio Estilos Lucas Torres */
 
 #nova_section_7 h2{
@@ -373,6 +378,7 @@ p {
     margin: 0 auto;
     max-width: 75%;
     border: #0092b0 1px solid;
+    padding: 4% 1%;
 }
 
 .checks, #pagos_1 {
@@ -429,4 +435,12 @@ p {
     font-size: 3em;
     color: #6B156A;
     text-align: center;
+}
+
+
+#catalogo_btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
 }
