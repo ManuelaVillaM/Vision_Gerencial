@@ -4,7 +4,9 @@
     font-family: 'avenir_light';
     src: url('../fonts/avenir/AvenirLTStd-Light.woff2') format('woff2'),
         url('../fonts/avenir/AvenirLTStd-Light.woff') format('woff'),
-        url('../fonts/avenir/AvenirLTStd-Light.ttf') format('truetype');
+        url('../fonts/avenir/AvenirLTStd-Light.ttf') format('truetype'),
+        url('../fonts/olivier_demo.ttf') format('truetype'),
+        url('../fonts/AvenirHeavy.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -14,22 +16,24 @@
     font-family: 'avenir_book';
     src: url('../fonts/avenir/AvenirLTStd-Book.woff2') format('woff2'),
         url('../fonts/avenir/AvenirLTStd-Book.woff') format('woff'),
-        url('../fonts/avenir/AvenirLTStd-Book.ttf') format('truetype');
+        url('../fonts/avenir/AvenirLTStd-Book.ttf') format('truetype'),
+        url('../fonts/olivier_demo.ttf') format('truetype'),
+        url('../fonts/AvenirHeavy.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
-.nova_seccion{
+.seccion{
     text-align: center;
     background-repeat: no-repeat;
 }
 
-.nova_adorno_derecha{
+.adorno_derecha{
     background-image: url(../imagenes/estrellas_derecha.png);
     background-position: right;
 }
-.nova_adorno_izquierda{
+.adorno_izquierda{
     background-image: url(../imagenes/estrellas_izquierda.png);
     background-position: left;
 }
@@ -49,9 +53,16 @@
 }
 
 .nova_check_mark{
-    display: flex;
+    /*display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;*/
+    width: 740px;
+    margin: 0 auto;
+    display: flex;
+}
+.nova_check_mark img{
+    align-self: flex-start;
+    margin-right: 20px;
 }
 .nova_check{
     align-self: center !important;
@@ -71,8 +82,16 @@
     font-family: avenir_light;
     font-size: 20px;
 }
+p{
+    color: #565656;
+}    
 
-.nova_btn-whatsapp {
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.btn-whatsapp {
     display:block;
     width:20px;
     height:20px;
@@ -86,67 +105,67 @@
     margin: 100px;
 }
 
-.nova_img_wpp {
+.img_wpp {
     width: 100px;
 }
 
-.nova_titulo1 {
+.titulo1 {
     color: rgba(1,146,177,255);
     font-family: 'Lobster', cursive;
     font-size: 60px;
 }
 
-.nova_titulo2 {
+.titulo2 {
     color: rgba(1,146,177,255);
     font-family: 'Lobster', cursive;
     font-size: 60px;
     margin: 10px;
 }
 
-#nova_img_info1 {
+#img_info1 {
     width: 550px;
 }
 
 
-.nova_titulo3 {
+.titulo3 {
     color: rgba(1,146,177,255);
     font-size: 40px;
 }
 
-.nova_titulo4 {
+.titulo4 {
     color: rgba(1,146,177,255);
 }
 
-#nova_credito_contado {
+#credito_contado {
     margin-bottom: 60px;
 }
 
-.nova_contenedorformasganar {
+.contenedorformasganar {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 40px;
 }
 
-.nova_formasganar {
+.formasganar {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.nova_tipsganar {
+.tipsganar {
     display: flex;
     align-items: center;
 }
 
-.nova_contenedorpremios {
+.contenedorpremios {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 40px;
 }
 
-.nova_contenedorpuntos {
+.contenedorpuntos {
     display: flex;
     justify-content: space-evenly;
     margin-top: 80px;
@@ -154,29 +173,29 @@
     margin-right: 200px;
 }
 
-.nova_iconosec3 {
+.iconosec3 {
     margin-right: 20px;
 }
 
-.nova_formasGanar {
+.formasGanar {
     display: flex;
     justify-content: center;
     margin-left: 30%;
 }
 
-.nova_pseccion3 {
+.pseccion3 {
     text-align: left;
 }
 
-#nova_img_info31 {
+#img_info31 {
     padding-right: 85px;
 }
 
-#nova_img_info32 {
+#img_info32 {
     padding-left: 35px;
 }
 
-.nova_conPremios {
+.conPremios {
     text-align: left;
 }
 
@@ -187,7 +206,7 @@
     text-align: left;
 }
 
-#nova_img_info9 {
+#img_info9 {
     margin-bottom: 30px;
     margin-top: 30px;
 }
@@ -199,531 +218,252 @@
     align-items: center;
 }
 
-.nova_seccion101 {
+.seccion101 {
     text-align: left;
     display: flex;
     margin-top: 30px;
 }
 
-.nova_usoflex {
+.usoflex {
     display: flex;
     align-items: center;
 }
 
-.nova_seccion102 {
+.seccion102 {
     margin-top: 50px;
     text-align: left;
 }
 
-.nova_seccion103 {
+.seccion103 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 55%;
     margin-top: 30px;
-}
-
-
-.nova_contacto {
-    background-color: rgba(233,92,39,255);
     color: white;
-    display: flex;
-    align-items: center;
 }
 
-.nova_contenedorlogo_vision {
-    margin-left: 20px;
+
+.contacto {
+    background-color: rgba(233,92,39,255);
+    display: flex;
+    align-items: left;
+    padding: 30px 0;
+}
+
+.contacto p{
+    color: white;
+}
+
+.contacto img {
+    margin-left: 50px;
     margin-right: 110px;
+    align-self: center;
 }
 
-.nova_logo_vision {
-    width: 400px;
-}
 
-.nova_mediospago {
+.mediospago {
     display: flex;
     align-items: center;
 }
 
-.nova_contenedormediospago {
+.contenedormediospago {
     display: grid;
     grid-template-columns: auto auto;
     padding: 15px;
     margin-top: 50px;
 }
 
-#nova_tituloFooter {
+#tituloFooter {
     text-align: center;
 }
 
-#nova_novfooter {
+#novfooter {
     margin-top: 80px;
 }
 
-.nova_logo{
-    margin: 20px;
+/* Fin estilos Manuela Villa */
+
+
+
+/* Estilos Andres Arenas */
+/* info 4 */
+#nova_seccion_4{
+    height: 940px;
+    padding-top: 150px;
+    background-repeat: no-repeat;
+}
+#nova_seccion_4 h2{
+    color:rgb(1,146,177);
+}
+#nova_seccion_4 p{
+    color: rgb(86,86,86);
 }
 
-.nova_lineasatencion {
-    margin-left: 100px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+/* info 5 */
+#nova_seccion_5{
+    height: 940px;
+    padding-top: 80px;
+}
+#nova_seccion_5 h2{
+    color:rgb(1,146,177);
+    font-size: 38px;
+}
+#nova_seccion_5 p{
+    color: rgb(86,86,86);
+    font-size: 17px;
+    text-align: center;
+    
+}
+.enlacePremios{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+.puntos{
+    
+    
+}
+#nova_seccion_5 a{
+    text-decoration: none;
+    text-align: center;
+    align-content: center;
+    color: white;
+    background-color:rgb(233,92,39) ;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0.5rem 1rem;
+}
+.condiciones{
+    font-size: 15px;
 }
 
-#nova_section_8{
+/* info 6 */
+#nova_seccion_6{
+    height: 940px;
+    padding-top: 80px;
+}
+#nova_seccion_6 h1{
+    display: inline;
+    font-family:;
+    font-size: 50px;
+}
+#nova_seccion_6, #nova_section_7, #nova_section_8 h2{
+    color:rgb(1,146,177);
+}
+#nova_section_7 div{
     width: 900px;
-    margin: 50px auto;
+    margin: 0 auto;
+}
+.tabla{ 
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tituloTabla{
+    color:rgb(1,146,177);
+    font-weight: bold;
+    text-align: center;
+}
+.contenidoTabla{
+    color: rgb(86,86,86);
+    padding: 20px 50px;
+    text-align: center;
+}
+/* Fin estilos Andres Arenas*/
+
+
+
+/* Inicio Estilos Lucas Torres */
+
+#nova_section_7, h2{
+    font-family: AvenirHeavy, Calibri, sans-serif;
+    font-size: 40px;
+}
+#nova_section_7 p{
+    
+    font-family: AvenirHeavy, Calibri, sans-serif;
+    font-size: 20px;
 }
 
-#nova_seccion_9{
-    width: 960px;
-    height: 936px;
-    margin: 0 auto;   
+#nova_section_7, #nova_section_8{
+    text-align: left;
+    margin: 0 auto;
+    max-width: 75%;
+    /* border: #0092b0 1px solid; */
+    padding: 4% 1%;
+}
+
+.checks, #pagos_1 {
+    display: flex;
+    align-items: center;
+    margin: 1em;
+}
+
+#cont_puntos {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2% 1%;
+}
+
+.cont_P {
+    /* border: saddlebrown 1px solid; */
+    margin: 10px !important;
+    text-align: center;
+    width: 152px !important;
+    height: 206px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.cont_P:hover {
+    cursor: pointer;
+    background-color: #e69b80;
+}
+
+._rub {
+    background-color: #F5CFDE;
+}
+._zaf {
+    background-color: #D9E4EE;
+}
+._esm {
+    background-color: #D9EFEE;
+}
+._dmt {
+    background-color: #E5DDEA;
+}
+._dmt_plus {
+    background-color: #E7DFED;
 }
 
 #nova_section_8 h2:first-child{
     text-align: center;
 }
-
 #nova_section_8 h3{
     color: #0092b0;
 }
-
-#nova_catalogo_btn {
+#catalogo_btn {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Fin estilos Manuela Villa */
-/* Estilos Andres Arenas */
-
-/* Fin estilos Andres Arenas*/
+#cta_mis_premios {
+    font-family: AvenirHeavy, Calibri, sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    color: white;
+    background-color: #EA5C27;
+    padding: 2% 5%;
+    border-radius: 50px;
+}
