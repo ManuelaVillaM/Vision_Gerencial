@@ -333,7 +333,7 @@ p {
     font-family:;
     font-size: 50px;
 }
-#nova_seccion_6, #nova_section_7 h2{
+#nova_seccion_6, #nova_section_7, #nova_section_8 h2{
     color:rgb(1,146,177);
 }
 
@@ -366,4 +366,14 @@ p {
     
     font-family: AvenirHeavy, Calibri, sans-serif;
     font-size: 20px;
+}
+
+#nova_section_8 h2:first-child{
+    font-family: olivier, Calibri, sans-serif;
+    font-size: 3em;
+    color: #6B156A;
+}
+
+#nova_section_7, #nova_section_8 {
+    margin: 5% 0;
 }
