@@ -75,7 +75,11 @@ p {
     box-sizing: border-box;
     font-family: avenir_light;
     font-size: 20px;
+}
 
+a {
+    list-style: none;
+    text-decoration: none;
 }
 
 .btn-whatsapp {
@@ -363,7 +367,7 @@ p {
 
 /* Inicio Estilos Lucas Torres */
 
-#nova_section_7 h2{
+#nova_section_7, h2{
     font-family: AvenirHeavy, Calibri, sans-serif;
     font-size: 40px;
 }
@@ -377,7 +381,7 @@ p {
     text-align: left;
     margin: 0 auto;
     max-width: 75%;
-    border: #0092b0 1px solid;
+    /* border: #0092b0 1px solid; */
     padding: 4% 1%;
 }
 
@@ -388,7 +392,7 @@ p {
 }
 
 #cont_puntos {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -437,10 +441,18 @@ p {
     text-align: center;
 }
 
-
 #catalogo_btn {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
+}
+
+#cta_mis_premios {
+    font-family: AvenirHeavy, Calibri, sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    color: white;
+    background-color: #EA5C27;
+    padding: 2% 5%;
+    border-radius: 50px;
 }
