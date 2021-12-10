@@ -24,16 +24,16 @@
     font-display: swap;
 }
 
-.seccion{
+.nova_seccion{
     text-align: center;
     background-repeat: no-repeat;
 }
 
-.adorno_derecha{
+.nova_adorno_derecha{
     background-image: url(../imagenes/estrellas_derecha.png);
     background-position: right;
 }
-.adorno_izquierda{
+.nova_adorno_izquierda{
     background-image: url(../imagenes/estrellas_izquierda.png);
     background-position: left;
 }
@@ -91,7 +91,7 @@ a {
     text-decoration: none;
 }
 
-.btn-whatsapp {
+.nova_btn-whatsapp {
     display:block;
     width:20px;
     height:20px;
@@ -105,67 +105,67 @@ a {
     margin: 100px;
 }
 
-.img_wpp {
+.nova_img_wpp {
     width: 100px;
 }
 
-.titulo1 {
+.nova_titulo1 {
     color: rgba(1,146,177,255);
     font-family: 'Lobster', cursive;
     font-size: 60px;
 }
 
-.titulo2 {
+.nova_titulo2 {
     color: rgba(1,146,177,255);
     font-family: 'Lobster', cursive;
     font-size: 60px;
     margin: 10px;
 }
 
-#img_info1 {
+#nova_img_info1 {
     width: 550px;
 }
 
 
-.titulo3 {
+.nova_titulo3 {
     color: rgba(1,146,177,255);
     font-size: 40px;
 }
 
-.titulo4 {
+.nova_titulo4 {
     color: rgba(1,146,177,255);
 }
 
-#credito_contado {
+#nova_credito_contado {
     margin-bottom: 60px;
 }
 
-.contenedorformasganar {
+.nova_contenedorformasganar {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 40px;
 }
 
-.formasganar {
+.nova_formasganar {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.tipsganar {
+.nova_tipsganar {
     display: flex;
     align-items: center;
 }
 
-.contenedorpremios {
+.nova_contenedorpremios {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 40px;
 }
 
-.contenedorpuntos {
+.nova_contenedorpuntos {
     display: flex;
     justify-content: space-evenly;
     margin-top: 80px;
@@ -173,29 +173,29 @@ a {
     margin-right: 200px;
 }
 
-.iconosec3 {
+.nova_iconosec3 {
     margin-right: 20px;
 }
 
-.formasGanar {
+.nova_formasGanar {
     display: flex;
     justify-content: center;
     margin-left: 30%;
 }
 
-.pseccion3 {
+.nova_pseccion3 {
     text-align: left;
 }
 
-#img_info31 {
+#nova_img_info31 {
     padding-right: 85px;
 }
 
-#img_info32 {
+#nova_img_info32 {
     padding-left: 35px;
 }
 
-.conPremios {
+.nova_conPremios {
     text-align: left;
 }
 
@@ -206,7 +206,7 @@ a {
     text-align: left;
 }
 
-#img_info9 {
+#nova_img_info9 {
     margin-bottom: 30px;
     margin-top: 30px;
 }
@@ -218,23 +218,23 @@ a {
     align-items: center;
 }
 
-.seccion101 {
+.nova_seccion101 {
     text-align: left;
     display: flex;
     margin-top: 30px;
 }
 
-.usoflex {
+.nova_usoflex {
     display: flex;
     align-items: center;
 }
 
-.seccion102 {
+.nova_seccion102 {
     margin-top: 50px;
     text-align: left;
 }
 
-.seccion103 {
+.nova_seccion103 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -243,42 +243,41 @@ a {
     color: white;
 }
 
-
-.contacto {
+.nova_contacto {
     background-color: rgba(233,92,39,255);
     display: flex;
     align-items: left;
     padding: 30px 0;
 }
 
-.contacto p{
+.nova_contacto p{
     color: white;
 }
 
-.contacto img {
+.nova_contacto img {
     margin-left: 50px;
     margin-right: 110px;
     align-self: center;
 }
 
 
-.mediospago {
+.nova_mediospago {
     display: flex;
     align-items: center;
 }
 
-.contenedormediospago {
+.nova_contenedormediospago {
     display: grid;
     grid-template-columns: auto auto;
     padding: 15px;
     margin-top: 50px;
 }
 
-#tituloFooter {
+#nova_tituloFooter {
     text-align: center;
 }
 
-#novfooter {
+#nova_novfooter {
     margin-top: 80px;
 }
 
@@ -315,15 +314,16 @@ a {
     text-align: center;
     
 }
-.enlacePremios{
+.nova_enlacePremios{
     margin-top: 30px;
     margin-bottom: 30px;
     
 }
-.puntos{
-    
-    
+.nova_puntos{
+    display: block;
+    text-align: center;
 }
+
 #nova_seccion_5 a{
     text-decoration: none;
     text-align: center;
@@ -335,7 +335,7 @@ a {
     font-size: 20px;
     padding: 0.5rem 1rem;
 }
-.condiciones{
+.nova_condiciones{
     font-size: 15px;
 }
 
@@ -356,19 +356,19 @@ a {
     width: 900px;
     margin: 0 auto;
 }
-.tabla{ 
+.nova_tabla{ 
     margin-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.tituloTabla{
+.nova_tituloTabla{
     color:rgb(1,146,177);
     font-weight: bold;
     text-align: center;
 }
-.contenidoTabla{
+.nova_contenidoTabla{
     color: rgb(86,86,86);
     padding: 20px 50px;
     text-align: center;
@@ -397,13 +397,13 @@ a {
     padding: 4% 1%;
 }
 
-.checks, #pagos_1 {
+.nova_checks, #nova_pagos_1 {
     display: flex;
     align-items: center;
     margin: 1em;
 }
 
-#cont_puntos {
+#nova_cont_puntos {
     /* border: 1px solid red; */
     display: flex;
     align-items: center;
@@ -411,7 +411,7 @@ a {
     margin: 2% 1%;
 }
 
-.cont_P {
+.nova_cont_P {
     /* border: saddlebrown 1px solid; */
     margin: 10px !important;
     text-align: center;
@@ -425,24 +425,24 @@ a {
     border-radius: 25px;
 }
 
-.cont_P:hover {
+.nova_cont_P:hover {
     cursor: pointer;
     background-color: #e69b80;
 }
 
-._rub {
+.nova_rub {
     background-color: #F5CFDE;
 }
-._zaf {
+.nova_zaf {
     background-color: #D9E4EE;
 }
-._esm {
+.nova_esm {
     background-color: #D9EFEE;
 }
-._dmt {
+.nova_dmt {
     background-color: #E5DDEA;
 }
-._dmt_plus {
+.nova_dmt_plus {
     background-color: #E7DFED;
 }
 
@@ -452,13 +452,13 @@ a {
 #nova_section_8 h3{
     color: #0092b0;
 }
-#catalogo_btn {
+#nova_catalogo_btn {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-#cta_mis_premios {
+#nova_cta_mis_premios {
     font-family: AvenirHeavy, Calibri, sans-serif;
     font-size: 2em;
     font-weight: 600;
