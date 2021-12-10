@@ -368,20 +368,65 @@ p {
     font-size: 20px;
 }
 
-#nova_section_7{
+#nova_section_7, #nova_section_8{
     text-align: left;
     margin: 0 auto;
-    max-width: 80%;
+    max-width: 75%;
     border: #0092b0 1px solid;
 }
 
 .checks, #pagos_1 {
     display: flex;
     align-items: center;
+    margin: 1em;
+}
+
+#cont_puntos {
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2% 1%;
+}
+
+.cont_P {
+    /* border: saddlebrown 1px solid; */
+    margin: 2% 1%;
+    text-align: center;
+    width: 152px;
+    height: 206px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.cont_P:hover {
+    cursor: pointer;
+    background-color: #e69b80;
+}
+
+._rub {
+    background-color: #F5CFDE;
+}
+._zaf {
+    background-color: #D9E4EE;
+}
+._esm {
+    background-color: #D9EFEE;
+}
+._dmt {
+    background-color: #E5DDEA;
+}
+._dmt_plus {
+    background-color: #E7DFED;
 }
 
 #nova_section_8 h2:first-child{
     font-family: olivier, Calibri, sans-serif;
     font-size: 3em;
     color: #6B156A;
+    text-align: center;
 }
