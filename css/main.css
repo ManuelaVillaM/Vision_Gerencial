@@ -23,9 +23,6 @@
     font-style: normal;
     font-display: swap;
 }
-p {
-    color: #565656;
-}
 
 .seccion{
     text-align: center;
@@ -56,9 +53,16 @@ p {
 }
 
 .nova_check_mark{
-    display: flex;
+    /*display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;*/
+    width: 740px;
+    margin: 0 auto;
+    display: flex;
+}
+.nova_check_mark img{
+    align-self: flex-start;
+    margin-right: 20px;
 }
 
 .nova_resaltar{
@@ -76,6 +80,9 @@ p {
     font-family: avenir_light;
     font-size: 20px;
 }
+p{
+    color: #565656;
+}    
 
 a {
     list-style: none;
@@ -231,24 +238,27 @@ a {
     align-items: center;
     width: 55%;
     margin-top: 30px;
+    color: white;
 }
 
 
 .contacto {
     background-color: rgba(233,92,39,255);
-    color: white;
     display: flex;
-    align-items: center;
+    align-items: left;
+    padding: 30px 0;
 }
 
-.contenedorlogo_vision {
-    margin-left: 20px;
+.contacto p{
+    color: white;
+}
+
+.contacto img {
+    margin-left: 50px;
     margin-right: 110px;
+    align-self: center;
 }
 
-.logo_vision {
-    width: 400px;
-}
 
 .mediospago {
     display: flex;
@@ -278,7 +288,8 @@ a {
 /* info 4 */
 #nova_seccion_4{
     height: 940px;
-    padding-top: 80px;
+    padding-top: 150px;
+    background-repeat: no-repeat;
 }
 #nova_seccion_4 h2{
     color:rgb(1,146,177);
@@ -286,11 +297,7 @@ a {
 #nova_seccion_4 p{
     color: rgb(86,86,86);
 }
-.nova_check_nova4{
-    display: block;
-    align-items: center;
-    justify-self: normal;
-}
+
 /* info 5 */
 #nova_seccion_5{
     height: 940px;
@@ -343,7 +350,10 @@ a {
 #nova_seccion_6, #nova_section_7, #nova_section_8 h2{
     color:rgb(1,146,177);
 }
-
+#nova_section_7 div{
+    width: 900px;
+    margin: 0 auto;
+}
 .tabla{ 
     margin-top: 30px;
     display: flex;
@@ -401,9 +411,9 @@ a {
 
 .cont_P {
     /* border: saddlebrown 1px solid; */
-    margin: 2% 1%;
+    margin: 10px !important;
     text-align: center;
-    width: 152px;
+    width: 152px !important;
     height: 206px;
     display: flex;
     flex-direction: column;
@@ -435,12 +445,11 @@ a {
 }
 
 #nova_section_8 h2:first-child{
-    font-family: olivier, Calibri, sans-serif;
-    font-size: 3em;
-    color: #6B156A;
     text-align: center;
 }
-
+#nova_section_8 h3{
+    color: #0092b0;
+}
 #catalogo_btn {
     display: flex;
     align-items: center;
