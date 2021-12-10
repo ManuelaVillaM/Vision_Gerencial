@@ -368,12 +368,20 @@ p {
     font-size: 20px;
 }
 
+#nova_section_7{
+    text-align: left;
+    margin: 0 auto;
+    max-width: 80%;
+    border: #0092b0 1px solid;
+}
+
+.checks, #pagos_1 {
+    display: flex;
+    align-items: center;
+}
+
 #nova_section_8 h2:first-child{
     font-family: olivier, Calibri, sans-serif;
     font-size: 3em;
     color: #6B156A;
-}
-
-#nova_section_7, #nova_section_8 {
-    margin: 5% 0;
 }
