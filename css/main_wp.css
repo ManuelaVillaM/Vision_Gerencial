@@ -30,11 +30,11 @@
 }
 
 .adorno_derecha{
-    background-image: url(../imagenes/estrellas_derecha.png);
+    background-image: url(/wp-content/uploads/2021/12/estrellas_derecha.png);
     background-position: right;
 }
 .adorno_izquierda{
-    background-image: url(../imagenes/estrellas_izquierda.png);
+    background-image: url(/wp-content/uploads/2021/12/estrellas_izquierda.png);
     background-position: left;
 }
 #nova_seccion_1{
